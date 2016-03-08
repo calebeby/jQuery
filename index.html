@@ -21,5 +21,16 @@
   <code>
     &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js&quot;&gt;&lt;/script&gt;
   </code>
+  <h1>Things you can do with jQuery:</h1>
+  <h2>AJAX Calls:</h2>
+  <code>
+    $.ajax({
+      url: "demo_test.txt",
+      success: function(result){
+        $("#div1").html(result);
+      }
+    });
+  </code>
+
 </body>
 </html>
